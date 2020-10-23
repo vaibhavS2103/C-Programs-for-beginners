@@ -2,13 +2,13 @@
 int main() {
     int num;
     printf("Enter an integer: ");
-    scanf("%d", &num);
+  cin>>num
 
     // True if num is perfectly divisible by 2
     if(num % 2 == 0)
-        printf("%d is even.", num);
+        cout<<"Even no";
     else
-        printf("%d is odd.", num);
+        cout<<"Odd No";
     
     return 0;
 }
